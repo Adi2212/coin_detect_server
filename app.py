@@ -70,5 +70,5 @@ def detect_coins():
         return jsonify({'error': str(e)}), 500
 
 # === Run App (optional) ===
-# if __name__ == '__main__':
-#     app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
